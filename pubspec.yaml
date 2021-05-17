@@ -1,0 +1,25 @@
+name: simple_flutter_website
+description: Simple Flutter Website.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^9.0.0
+  get: ^4.1.4
+  google_fonts: ^2.0.0
+  touchable_opacity: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
